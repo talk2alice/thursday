@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-content">
+        <img src="download (4).jpg" alt="Profile Picture" class="profile-pic">
+        <h1> Alice Mugabekazi</h1>
+        <p>Web Developer | Aspiring Entrepreneur</p>
+        <a href="#projects" class="btn">See My Projects</a>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <!-- Project 1 -->
+        <div class="project-item">
+          <img src="developer.jpg" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>Description of Project 1</p>
+          <p>Technologies used: HTML, CSS, JavaScript</p>
+          <a href="#" class="btn">View Demo</a>
+        </div>
+        <!-- Add more project items here -->
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <div class="education-list">
+        <div class="education-item">
+            <img src="Будущее маркетинга_ конференция с инновациями и цифровыми стратегиями (1).jpg" alt="Project 1" height="330px" width="330px">
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p>University of Example, 2018 - 2022</p>
+        </div>
+        <!-- Add more education items here -->
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+      <h2>My Blog</h2>
+      <div class="blog-list">
+        <!-- Blog posts will be dynamically added here -->
+        <img src="How to find a mentor and accelerate your learning_ a beginner’s guide_.jpg" alt="Blog 1" height="300px">
+      </div>
+    </section>
+
+    <!-- Blog Dashboard Section -->
+    <section id="blog-dashboard">
+      <h2>Blog Dashboard</h2>
+      <div class="blog-dashboard-container">
+        <div class="blog-form">
+          <input type="text" id="blog-title" placeholder="Blog Title">
+          <textarea id="blog-content" placeholder="Blog Content"></textarea>
+          <button id="save-blog">Save Blog</button>
+        </div>
+        <div class="blog-list-container">
+          <h3>All Blog Posts</h3>
+          <img src="" alt="Project 1">
+          <ul id="blog-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <textarea id="message" placeholder="Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="success-message" class="hidden">Message sent successfully!</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alice Mugabekazi. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
